@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: coffee-machine-api-express-api
+  description: Gets the coffee machine status
+  annotations:
+    github.com/project-slug: ""
+    jujhar.com/project-build: "on the beast"
+    backstage.io/techdocs-ref: dir:.
+    snyk.io/org-name: coffee-machine-api-express-api
+    snyk.io/project-ids: b6ab231c-a019-4def-a148-4a10a79d6302
+  tags:
+    - api
+    - express
+spec:
+  type: service
+  lifecycle: production
+  owner: coffee-machine-api
+  system: product
